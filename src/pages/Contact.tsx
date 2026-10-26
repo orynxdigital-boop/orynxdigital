@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Send, Loader2, CheckCircle2 } from "lucide-react";
+import { Send, CheckCircle2 } from "lucide-react";
 import { storage } from "../services/storage";
 
 export default function Contact() {
@@ -86,13 +86,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-4">
-                <span className="section-label !mb-0 text-[10px] opacity-40">SECURE_LINE</span>
-                <div>
-                  <div className="text-xs text-brand-accent font-mono uppercase tracking-[0.2em] mb-2 font-medium">Internal_Ext</div>
-                  <div className="text-white text-xl font-light tracking-tight">01872537867</div>
-                </div>
-              </div>
 
               <div className="flex flex-col gap-4">
                 <span className="section-label !mb-0 text-[10px] opacity-40">COORD_LOC</span>

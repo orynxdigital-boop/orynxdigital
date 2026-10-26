@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Heart, MessageCircle, Send, Loader2 } from "lucide-react";
 import { storage, TradeData, CommentData } from "../services/storage";
 
